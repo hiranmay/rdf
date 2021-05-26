@@ -1,0 +1,37 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22−rdf−syntax−ns#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf−schema#> .
+
+# --- Define the object classes ------
+
+<#Furniture> rdf:type <rdfs:Class> .
+<#Gadget> rdf:type <rdfs:Class> .
+<#Book> rdf:type <rdfs:Class> .
+
+# --- Define the spatial relations ------
+
+<#above> rdf:type rdf:Property .
+<#rightOf> rdf:type rdf:Property .
+
+# --- Define the objects and declare their types and spatial relations with others ---
+<#Desk>
+	rdf:type <#Furniture> .
+
+<#Laptop>
+	rdf:type <#Gadget> ;
+	<#above> <#Desk> .
+<#Mousepad>
+	rdf:type <#Gadget>;
+	<#above> <#Desk> .
+<#Mouse>
+	rdf:type <#Gadget>;
+	<#above> <#Mousepad> .
+
+<#Book2>
+	rdf:type <#Book>;
+	<#above> <#Desk> .
+<#Book1>
+	rdf:type <#Book>;
+	<#above> <#Book2> .
+<#Spectacles>
+	rdf:type <#Wearable>;
+	<#above> <#Book1> .
