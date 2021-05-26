@@ -9,8 +9,8 @@
 
 # --- Define the spatial relations ------
 
-<#above> rdf:type rdf:Property .
-<#rightOf> rdf:type rdf:Property .
+<#above> rdf:type rdfs:Property .
+<#rightOf> rdf:type rdfs:Property .
 
 # --- Define the objects and declare their types and spatial relations with others ---
 <#Desk>
