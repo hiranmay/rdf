@@ -6,6 +6,7 @@
 <#Furniture> rdf:type <rdfs:Class> .
 <#Gadget> rdf:type <rdfs:Class> .
 <#Book> rdf:type <rdfs:Class> .
+<#Wearable> rdfs:subClassOf <#Gadget> .
 
 # --- Define the spatial relations ------
 
