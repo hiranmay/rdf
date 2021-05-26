@@ -22,6 +22,7 @@
 	<#above> <#Desk> .
 <#Mousepad>
 	rdf:type <#Gadget>;
+	<#rightOf> <#Laptop>;
 	<#above> <#Desk> .
 <#Mouse>
 	rdf:type <#Gadget>;
@@ -29,6 +30,7 @@
 
 <#Book2>
 	rdf:type <#Book>;
+	<#rightOf> <#Mousepad>;
 	<#above> <#Desk> .
 <#Book1>
 	rdf:type <#Book>;
