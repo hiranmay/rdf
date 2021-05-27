@@ -12,7 +12,7 @@ We have included the following sparql queries:
 *  **sparql4**(https://raw.githubusercontent.com/hiranmay/rdf/main/sparql4): Retrieves all objects above Desk recursively. One need not know how many lavels to go. Limitation: Cannot find the height where the objects are.
 
 
-The queries have been tested on the generic sparql endpoint SPARQLer (http://sparql.org/sparql.html)
+The queries have been tested on the generic sparql endpoint SPARQLer (http://sparql.org/sparql.html) and Rasqual (https://librdf.org/query/)
 
 **Following queries are recommended for the students.**
 
