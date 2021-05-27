@@ -1,3 +1,5 @@
+# Find all objects recursively on the desk
+
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix sg:  <http://raw.githubusercontent.com/hiranmay/rdf/main/scene-graph.n3#>
 
