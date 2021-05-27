@@ -1,0 +1,18 @@
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix sg:  <http://raw.githubusercontent.com/hiranmay/rdf/main/scene-graph.n3#>
+
+select ?obj ?height where {
+   {
+      bind(1 as ?height)       
+      ?obj sg:above sg:Desk. 
+   } union {
+      bind(2 as ?height)  
+      ?x sg:above sg:Desk.
+      ?obj sg:above ?x.
+   } union {
+      bind(3 as ?height)  
+      ?x sg:above sg:Desk.
+      ?y sg:above ?x.
+      ?obj sg:above ?y.
+   }
+}
