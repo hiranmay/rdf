@@ -11,7 +11,7 @@
 # --- Define the spatial relations ------
 
 <#above> rdf:type rdfs:Property .
-<#rightOf> rdf:type rdfs:Property .
+<#right> rdf:type rdfs:Property .
 
 # --- Define the objects and declare their types and spatial relations with others ---
 <#Desk>
@@ -22,7 +22,7 @@
 	<#above> <#Desk> .
 <#Mousepad>
 	rdf:type <#Gadget>;
-	<#rightOf> <#Laptop>;
+	<#right> <#Laptop>;
 	<#above> <#Desk> .
 <#Mouse>
 	rdf:type <#Gadget>;
@@ -30,7 +30,7 @@
 
 <#Book2>
 	rdf:type <#Book>;
-	<#rightOf> <#Mousepad>;
+	<#right> <#Mousepad>;
 	<#above> <#Desk> .
 <#Book1>
 	rdf:type <#Book>;
