@@ -6,8 +6,9 @@ The rdf (n3) file encoding the scene-graph is here (https://raw.githubuserconten
   **IMPORTANT:** You have to use http://... instead of https://... to specify the scene-graph with SPARQL endpoint.
 
 We have included the following sparql queries:
-* **sparql1**: Find all items above the Desk (a specific object). Note that the items that are directly on the desk (i.e. Laptop, Mouspad and Book2) are retrieved. The items that are above these items (recursively), e.g. Mouse, Book1, Spectacles are not retrieved. See queries sparql3, sparql4
-*  **sparql2**: Find all items that are above an object of type Book (a class of objects). Book1 and Spectacles are retrieve.
+* **sparql1**: Retrieve all items above the Desk (a specific object). Note that the items that are directly on the desk (i.e. Laptop, Mouspad and Book2) are retrieved. The items that are above these items (recursively), e.g. Mouse, Book1, Spectacles are not retrieved. See queries sparql3, sparql4
+*  **sparql2**: Retrieve all objects that are above an object of type Book (a class of objects). Book1 and Spectacles are retrieve.
+*  **sparql3**: Retrieves all objects above the Desk recursively. Also show the height they are at. Limitation: One need to know how many levels to go and explicitly code for every level.
 
 
 The queries have been tested on the generic sparql endpoint SPARQLer (http://sparql.org/sparql.html)
