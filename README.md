@@ -13,3 +13,8 @@ We have included the following sparql queries:
 
 
 The queries have been tested on the generic sparql endpoint SPARQLer (http://sparql.org/sparql.html)
+
+**Following queries are recommended for the students.**
+
+* Find all objects of type Gadget on the desk (recursively). Should retrieve Laptop, Mouse, Mousepad. ... also Spectacles which is a Wearable, a subclass of Gadget.
+* Find all objects at the right of Laptop (recursively). Also implement the rule if y *right* x and z *above* y, then z *right* x, i.e. the query should retrieve the objects Mousepad, Mouse, Book1, Book2 and Spectacles.
