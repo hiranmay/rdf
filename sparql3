@@ -1,3 +1,9 @@
+# Find all objects on the desk (recursively)
+# Report their height
+#   1: directly above the desk
+#   2: on something that is on the desk
+#   ... and so on
+
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix sg:  <http://raw.githubusercontent.com/hiranmay/rdf/main/scene-graph.n3#>
 
