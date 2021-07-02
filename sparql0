@@ -1,4 +1,4 @@
-# What are the objects there on the desk?
+# List all the object and their types
 
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix sg:  <http://raw.githubusercontent.com/hiranmay/rdf/main/scene-graph.n3#>
