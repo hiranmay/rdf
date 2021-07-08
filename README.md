@@ -19,4 +19,4 @@ The queries have been tested on the generic sparql endpoint SPARQLer (http://spa
 
 * Find all objects of type Gadget on the desk (recursively). Should retrieve Laptop, Mouse, Mousepad. ... also Spectacles which is a Wearable, a subclass of Gadget.
 * Find all objects at the right of Laptop (recursively). Also implement the rule if y *right* x and z *above* y, then z *right* x, i.e. the query should retrieve the objects Mousepad, Mouse, Book1, Book2 and Spectacles.
-* Find all objects to the left of Book1. Follow the logic: 
+* Find all objects to the left of Book1. Follow the logic: Book1 is above Book2 and Mousepad is on the left of Book2. Hence Mousepad is on the left of Book1, etc. Should retrieve Mousepad, Mouse and Laptop.
