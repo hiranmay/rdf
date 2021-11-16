@@ -5,7 +5,7 @@ The scene graph used in this project is based on a snapshot of my desk as depict
 The scene graph is pictorially depicted in the image **scene-graph.png** (https://github.com/hiranmay/rdf/blob/main/scene-graph.png).
 The rdf (n3) file encoding the scene-graph is in **scene-graph.n3** (https://raw.githubusercontent.com/hiranmay/rdf/main/scene-graph.n3). Note that the spatial relations like "above", etc. and a few object classes are defined in this file.
 
-  **IMPORTANT:** You have to use http://... instead of https://... to specify the scene-graph with SPARQL endpoint.
+  **IMPORTANT:** You have to use http://... instead of https://... to specify the scene-graph to work with a SPARQL endpoint.
 
 We have included the following sparql queries:
 * **sparql0**(https://raw.githubusercontent.com/hiranmay/rdf/main/sparql0): Retrieve all objects in the scene with their types.
